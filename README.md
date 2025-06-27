@@ -59,3 +59,12 @@ How to Run
  – Django:
   `python manage.py runserver`
 
+---
+
+### 🔧 Why it fixes the problem:
+- `bash` blocks with triple backticks (` ```bash `) format commands cleanly.
+- Each bullet is followed by a new line to avoid mashing lines together.
+- Indentation is consistent.
+
+
+
