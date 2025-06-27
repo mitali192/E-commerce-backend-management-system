@@ -35,9 +35,9 @@ How to Run
    # macOS/Linux:
    source ./.venv/bin/activate
 3. Install dependencies (choose based on your framework):
-   For Flask:
-    pip install Flask SQLAlchemy Flask-Migrate bcrypt
-   For Django:
+    -For Flask:
+     pip install Flask SQLAlchemy Flask-Migrate bcrypt
+     For Django:
     pip install Django djangorestframework
 4. Configure database and run migrations:
    For Flask:use flask db init, flask db migrate, flask db upgrade
