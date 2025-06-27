@@ -24,7 +24,7 @@ File Structure
 - `cart.py`, `order.py` → Business logic for cart and checkout  
 - `migrations/` → Database schema versions
 
-How to Run
+##How to Run
 • Clone the repository:
 `git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git`
 `cd YOUR_REPO_NAME`
