@@ -25,32 +25,37 @@ File Structure
 - `migrations/` → Database schema versions
 
 How to Run
-1. Clone the repository:
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   cd YOUR_REPO_NAME
-2. Create and activate a virtual environment:
-   python -m venv .venv
-   # Windows:
-   .\.venv\Scripts\activate
-   # macOS/Linux:
-   source ./.venv/bin/activate
-3. Install dependencies (choose based on your framework):
-    -For Flask:
-     pip install Flask SQLAlchemy Flask-Migrate bcrypt
-     For Django:
-    pip install Django djangorestframework
-4. Configure database and run migrations:
-   For Flask:use flask db init, flask db migrate, flask db upgrade
-   For Django: use python manage.py makemigrations, python manage.py migrate
-5. Run the server:
-   For Flask:
-    flask run
-   For Django:
-    python manage.py runserver
+• Clone the repository:
+`git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git`
+`cd YOUR_REPO_NAME`
 
+• Create and activate a virtual environment:
+ Recommended Python version: Python 3.10+
+ – Windows:
+  `python -m venv .venv`
+  `.\.venv\Scripts\activate`
+ – macOS/Linux:
+  `python3 -m venv .venv`
+  `source .venv/bin/activate`
 
+• Install dependencies (choose based on framework):
+ – For Flask-based implementation:
+  `pip install Flask SQLAlchemy Flask-Migrate bcrypt`
+ – For Django-based implementation:
+  `pip install Django djangorestframework`
 
+• Configure the database and run migrations:
+ – For Flask:
+  `flask db init`
+  `flask db migrate`
+  `flask db upgrade`
+ – For Django:
+  `python manage.py makemigrations`
+  `python manage.py migrate`
 
-
-
+• Run the server (depending on the framework):
+ – Flask:
+  `flask run`
+ – Django:
+  `python manage.py runserver`
 
