@@ -41,41 +41,54 @@ A conceptual RESTful API backend built with **Python (Flask/Django)** for an e-c
 ## Getting Started
 
 ### 1. Clone the Repository
-       ```bash
-       git clone https://github.com/your-username/e-commerce-backend-engine.git
-       cd e-commerce-backend-engine
+```bash
+git clone https://github.com/your-username/e-commerce-backend-engine.git
+cd e-commerce-backend-engine
+```
 
-    2. Set Up a Virtual Environment
-       bash
-       python -m venv venv
-       source venv/bin/activate    # On Windows: venv\Scripts\activate
+---
 
-    3. Install Dependencies
-       For Flask:
-       bash
-       pip install Flask SQLAlchemy Flask-Migrate bcrypt
-       For Django:
-       bash
-       pip install Django djangorestframework
+2. Set Up a Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate    # On Windows: venv\Scripts\activate
+```
+---
 
-    4. Configure the Database & Run Migrations
-       Flask:
-       bash
-       flask db init
-       flask db migrate
-       flask db upgrade
-       Django:
-       bash
-       python manage.py makemigrations
-       python manage.py migrate
+3. Install Dependencies
+For Flask:
+```bash
+pip install Flask SQLAlchemy Flask-Migrate bcrypt
+```
+For Django:
+```bash
+pip install Django djangorestframework
+```
+---
 
-   5. Run the Server
-      Flask:
-      bash
-      flask run
-      Django:
-      bash
-      python manage.py runserver
+4. Configure the Database & Run Migrations
+Flask:
+```bash
+flask db init
+flask db migrate
+flask db upgrade
+```
+Django:
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+---
+
+5. Run the Server
+Flask:
+```bash
+flask run
+```
+Django:
+```bash
+python manage.py runserver
+```
 
 
 
