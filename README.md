@@ -51,29 +51,29 @@ A conceptual RESTful API backend built with **Python (Flask/Django)** for an e-c
        source venv/bin/activate    # On Windows: venv\Scripts\activate
 
     3. Install Dependencies
-       ```bash
        For Flask:
-       pip install Flask SQLAlchemy Flask-Migrate bcrypt
        ```bash
+       pip install Flask SQLAlchemy Flask-Migrate bcrypt
        For Django:
+       ```bash
        pip install Django djangorestframework
 
     4. Configure the Database & Run Migrations
-       ```bash
        Flask:
+       ```bash
        flask db init
        flask db migrate
        flask db upgrade
-       ```bash
        Django:
+       ```bash
        python manage.py makemigrations
        python manage.py migrate
 
    5. Run the Server
-      ```bash
       Flask:
-      flask run
       ```bash
+      flask run
       Django:
+      ```bash
       python manage.py runserver
 
