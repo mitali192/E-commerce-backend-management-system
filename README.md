@@ -38,7 +38,7 @@ A conceptual RESTful API backend built with **Python (Flask/Django)** for an e-c
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
        ```bash
@@ -46,34 +46,37 @@ A conceptual RESTful API backend built with **Python (Flask/Django)** for an e-c
        cd e-commerce-backend-engine
 
     2. Set Up a Virtual Environment
-       ```bash
+       bash
        python -m venv venv
        source venv/bin/activate    # On Windows: venv\Scripts\activate
 
     3. Install Dependencies
        For Flask:
-       ```bash
+       bash
        pip install Flask SQLAlchemy Flask-Migrate bcrypt
        For Django:
-       ```bash
+       bash
        pip install Django djangorestframework
 
     4. Configure the Database & Run Migrations
        Flask:
-       ```bash
+       bash
        flask db init
        flask db migrate
        flask db upgrade
        Django:
-       ```bash
+       bash
        python manage.py makemigrations
        python manage.py migrate
 
    5. Run the Server
       Flask:
-      ```bash
+      bash
       flask run
       Django:
-      ```bash
+      bash
       python manage.py runserver
+
+
+
 
