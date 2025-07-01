@@ -1,34 +1,71 @@
-# -E-commerce-Backend-Engine
+# E-commerce Backend Engine
 
-A conceptual RESTful API backend built with Python (Flask/Django) for an e-commerce platform. It provides essential services for user management, product catalog, shopping carts, and order processing, designed for frontend integration.
+A conceptual RESTful API backend built with **Python (Flask/Django)** for an e-commerce platform. It provides essential services for user management, product catalog, shopping carts, and order processing — designed for easy frontend integration.
 
- Features
--User authentication (registration, login, RBAC for customers/admins).
--Product management (CRUD operations).
--Shopping cart functionality (add/remove items, update quantity).
--Order processing and history.
--Stock management and validation.
+---
 
- Technologies
--Python 3.x
--lask / Django (Web Framework)
--PostgreSQL / SQLite (Database)
--SQLAlchemy / Django ORM (ORM)
--bcrypt / Django's hashing (Authentication)
+## Features
 
- Getting Started
--Clone the repository.
--Create and activate a virtual environment (as above).
--Install dependencies (choose based on Flask or Django):
-# For Flask example:
--pip install Flask SQLAlchemy Flask-Migrate bcrypt
-# For Django example:
--pip install Django djangorestframework
+- **User Authentication**
+  - Registration & Login
+  - Role-Based Access Control (Customers / Admins)
 
-Configure database and run migrations (specifics vary by framework).
-Run the server:
-# Flask: flask run
-# Django: python manage.py runserver
+- **Product Management**
+  - Full CRUD Operations
 
+- **Shopping Cart Functionality**
+  - Add / Remove Items
+  - Update Quantity
 
+- **Order Processing & History**
+  - Checkout
+  - View Past Orders
+
+- **Stock Management**
+  - Inventory Validation & Updates
+
+---
+
+## Technologies Used
+
+| Layer | Flask Option | Django Option |
+|------|--------------|----------------|
+| **Language** | Python 3.x | Python 3.x |
+| **Web Framework** | Flask | Django |
+| **Database** | PostgreSQL / SQLite | PostgreSQL / SQLite |
+| **ORM** | SQLAlchemy | Django ORM |
+| **Authentication** | bcrypt | Django's built-in hashing |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+git clone https://github.com/your-username/e-commerce-backend-engine.git
+cd e-commerce-backend-engine
+
+2. Set Up a Virtual Environment
+python -m venv venv
+source venv/bin/activate    # On Windows: venv\Scripts\activate
+
+3. Install Dependencies
+For Flask:
+pip install Flask SQLAlchemy Flask-Migrate bcrypt
+For Django:
+pip install Django djangorestframework
+
+4. Configure the Database & Run Migrations
+Flask:
+flask db init
+flask db migrate
+flask db upgrade
+Django:
+python manage.py makemigrations
+python manage.py migrate
+
+5. Run the Server
+Flask:
+flask run
+Django:
+python manage.py runserver
 
